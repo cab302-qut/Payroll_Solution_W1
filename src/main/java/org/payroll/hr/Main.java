@@ -161,7 +161,7 @@ public class Main {
         double partsCost = askDoubleInput(PARTS_COST, 1,1000);
         String name = setEmployeeName(CONTRACTOR_NAME);
         contractors.add(new Contractor(name, hoursWorked, partsCost));
-        showContractors();
+
     }
 
 
